@@ -1,0 +1,43 @@
+.css-passenger {
+    display: none;
+}
+
+table.nw1 thead tr th:nth-child(1) {
+    white-space: nowrap;
+}
+
+table.nw1 tbody tr td:nth-child(1) {
+    white-space: nowrap;
+}
+
+table.nw2 thead tr th:nth-child(2) {
+    white-space: nowrap;
+}
+
+table.nw2 tbody tr td:nth-child(2) {
+    white-space: nowrap;
+}
+
+table.nw3 thead tr th:nth-child(3) {
+    white-space: nowrap;
+}
+
+table.nw3 tbody tr td:nth-child(3) {
+    white-space: nowrap;
+}
+
+table.nw4 thead tr th:nth-child(4) {
+    white-space: nowrap;
+}
+
+table.nw4 tbody tr td:nth-child(4) {
+    white-space: nowrap;
+}
+
+table.nw5 thead tr th:nth-child(5) {
+    white-space: nowrap;
+}
+
+table.nw5 tbody tr td:nth-child(5) {
+    white-space: nowrap;
+}
