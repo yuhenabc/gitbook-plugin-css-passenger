@@ -10,7 +10,7 @@ By npm:
 npm install gitbook-plugin-css-passenger
 ```
 
-By gitbool-cli:
+By gitbook-cli:
 
 ```
 gitbook install css-passenger
