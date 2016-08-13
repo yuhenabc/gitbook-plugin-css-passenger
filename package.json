@@ -19,7 +19,10 @@
     }
   },
   "keywords": [
-    "gitbook"
+    "gitbook",
+    "table",
+    "css",
+    "class"
   ],
   "repository": {
     "type": "git",
