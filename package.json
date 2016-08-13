@@ -1,0 +1,30 @@
+{
+  "name": "gitbook-plugin-css-passenger",
+  "version": "0.0.1",
+  "description": "transmit css passenger to the destination",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "myConfigKey": {
+        "type": "string",
+        "default": "it's the default value",
+        "description": "It defines my awesome config!"
+      }
+    }
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuhenabc/gitbook-plugin-css-passenger.git"
+  },
+  "author": "yuhenabc",
+  "license": "ISC"
+}
