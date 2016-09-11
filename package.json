@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-css-passenger",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "transmit css passenger to the destination",
   "main": "index.js",
   "scripts": {
