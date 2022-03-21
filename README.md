@@ -92,4 +92,4 @@ table.nw4 tbody tr td:nth-child(4) {
 }
 ```
 
-I use `table` element as a exampla, but you can use with any element if you not satisfy with the default style rendered by your morkdown renderer. Tank you!
+I use `table` element as a example, but you can use with any element if you not satisfy with the default style rendered by your markdown renderer. Thank you!
