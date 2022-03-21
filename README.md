@@ -62,13 +62,27 @@ Then our plugin help you. Since markdown syntax support embedded HTML, we can gi
 
 The `<div>` is not display. But it's attribute `data-class` will pass to the next element as className. Now using Browser's developer-tools, you can fing the table has one more className "nw2". That's what the plugin done.
 
+the result is that the rendered `<table>` will has a `nw2` class, just like:
+
+``` html
+<div class="css-passenger" data-class="nw2"></div>
+<table class="nw2">...</table>
+```
+
 Our style file let `table.nw2` 's second column not be wrapped. Else if you want other column not be wrapped too, just add more class:
 
 ``` html
 <div class="css-passenger" data-class="nw1 nw2"></div>
 
+| Col 1 | Col 2 | Col 3 |
+| :---: | --- | --- |
+| content 1 | content 2 | content 3 |
+
 <div class="css-passenger" data-class="nw1 nw2 nw3"></div>
 
+| Col 1 | Col 2 | Col 3 |
+| :---: | --- | --- |
+| content 1 | content 2 | content 3 |
 ...
 ```
 
